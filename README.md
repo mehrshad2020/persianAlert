@@ -52,7 +52,7 @@ bottom-left , bottom-right , top-right , top-left
 ````
 
 
-تغییر متن دکمه بستن پیغام کافیه مقدار buttonTextClose رو قرار بدید این مقدار اختیاری است
+تغییر متن دکمه بستن پیغام کافیه مقدار buttonTextClose رو قرار بدید این مقدار اختیاری است و یا نمایش دکمه بستن رو غیر فعال کنید پیش فرض نمایش
 ```javascript
  persianAlert({
     message: "عملیات موفقیت آمیز بود",
@@ -60,7 +60,8 @@ bottom-left , bottom-right , top-right , top-left
     alertType: "success",
     timeout: 3000, //اختیاری
     position: "bottom-right",//اختیاری
-    buttonTextClose: "بی خیال"
+    buttonTextClose: "بی خیال",
+    showButtonClose = false,//اختیاری
 })
 ````
 
