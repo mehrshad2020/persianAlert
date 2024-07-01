@@ -52,4 +52,18 @@ bottom-left , bottom-right , top-right , top-left
 ````
 
 
+تغییر متن دکمه بستن پیغام کافیه مقدار buttonTextClose رو قرار بدید این مقدار اختیاری است
+```javascript
+ persianAlert({
+    message: "عملیات موفقیت آمیز بود",
+    description: "عملیات موفقیت آمیز بود",
+    alertType: "success",
+    timeout: 3000, //اختیاری
+    position: "bottom-right",//اختیاری
+    buttonTextClose: "بی خیال"
+})
+````
+
+
+
 
