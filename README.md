@@ -39,5 +39,17 @@ js
 })
 ````
 
+تغییر باز شدن جهت پیغام در صفحه ، کافیه مقدارposition رو قرار بدید مثال این مقادیر به صورت پیش فرض پیغام وسط نمایش داده میشه در صورت ست نکردن position
+bottom-left , bottom-right , top-right , top-left
+```javascript
+ persianAlert({
+    message: "عملیات موفقیت آمیز بود",
+    description: "عملیات موفقیت آمیز بود",
+    alertType: "success",
+    timeout: 3000, //اختیاری
+    position: "bottom-right",//اختیاری
+})
+````
+
 
 
