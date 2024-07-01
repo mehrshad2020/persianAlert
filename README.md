@@ -20,6 +20,15 @@ js
 ```html
    <script src="https://cdn.jsdelivr.net/gh/mehrshad2020/persianAlert/persianAlert.min.js"></script>
 ```
+# نحوه استفاده
+کافیه این فانگشن persianAlert رو صدا بزنید مثال این پایین
+```javascript
+ persianAlert({
+                message: "عملیات موفقیت آمیز بود",
+                description: "عملیات موفقیت آمیز بود",
+                alertType: "success", or //warning ,error , info
+})
+````
 
 
 
