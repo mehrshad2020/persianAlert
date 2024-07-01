@@ -34,7 +34,7 @@ js
  persianAlert({
     message: "عملیات موفقیت آمیز بود",
     description: "عملیات موفقیت آمیز بود",
-    alertType: "success"
+    alertType: "success",
     timeout: 3000, //اختیاری 
 })
 ````
