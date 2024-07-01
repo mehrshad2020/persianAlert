@@ -29,6 +29,15 @@ js
     alertType: "success", or //warning ,error , info
 })
 ````
+بسته شده به صورت خودکار به بعد یک تایم دلخواه به میلی ثانیه کافیه مقدار timeout رو قرار بدید
+```javascript
+ persianAlert({
+    message: "عملیات موفقیت آمیز بود",
+    description: "عملیات موفقیت آمیز بود",
+    alertType: "success"
+    timeout: 3000, //اختیاری 
+})
+````
 
 
 
