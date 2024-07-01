@@ -66,4 +66,29 @@ bottom-left , bottom-right , top-right , top-left
 
 
 
+برای نمایش پیغام چند مرحله ای کافیه مقدار   enableConfirm به true تغییر بدید و مقدار onConfrim رو یک فانگشن قرار بدید که دوباره خود persianAlert اجرا کنه با وردی جدید اجرا کند
+```javascript
+ persianAlert({
+    message: "آیا حذف بشه",
+    description: "قایل بازیابی نیست بعد از حدف",
+    alertType: "error",
+    timeout: 3000, //اختیاری
+    position: "bottom-right",//اختیاری
+    buttonTextClose: "بی خیال",
+    enableConfirm: false,//اختیاری
+    onConfrim: function () { // اختیاری
+        persianAlert({
+            message: "عملیات موفقیت",
+            description: "عملیات حذف موفقیت آمیز بود",
+            alertType: "success",
+            timeout: 3000,
+            buttonTextClose: "باشه",
+            
+        })
+    }
+})
+````
+
+
+
 
