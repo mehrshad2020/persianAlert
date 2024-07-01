@@ -24,9 +24,9 @@ js
 کافیه این فانگشن persianAlert رو صدا بزنید مثال این پایین
 ```javascript
  persianAlert({
-                message: "عملیات موفقیت آمیز بود",
-                description: "عملیات موفقیت آمیز بود",
-                alertType: "success", or //warning ,error , info
+    message: "عملیات موفقیت آمیز بود",
+    description: "عملیات موفقیت آمیز بود",
+    alertType: "success", or //warning ,error , info
 })
 ````
 
